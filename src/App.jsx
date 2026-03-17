@@ -16,7 +16,12 @@ function App() {
         }
     ]
 
-    return <Dropdown options={options} value={selected} onChange={setSelected} />
+    return (
+        <div className="flex">
+        <Dropdown options={options} value={selected} onChange={setSelected} />
+        <Dropdown options={options} value={selected} onChange={setSelected} />
+        </div>
+    )
 }
 
 export default App;
