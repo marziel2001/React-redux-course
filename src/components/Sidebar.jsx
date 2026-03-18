@@ -5,6 +5,7 @@ function Sidebar() {
         { label: 'Dropdown', path: '/' },
         { label: 'Acordion', path: '/acordion' },
         { label: 'Buttons', path: '/buttons' },
+        { label: 'Modal', path: '/modal' },
     ];
 
     const rennderedLinks = links.map((link) => {
