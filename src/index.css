@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
 button > svg {
-    @apply mr-[5px];
-    /* margin-right: 5px; */
+  @apply mr-[5px];
+  /* margin-right: 5px; */
 }
