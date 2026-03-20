@@ -1,13 +1,14 @@
 import Link from "./Link";
 
 function Sidebar() {
-  const links = [
-    { label: "Dropdown", path: "/" },
-    { label: "Acordion", path: "/acordion" },
-    { label: "Buttons", path: "/buttons" },
-    { label: "Modal", path: "/modal" },
-    { label: "Table", path: "/table" },
-  ];
+    const links = [
+        { label: 'Dropdown', path: '/' },
+        { label: 'Acordion', path: '/acordion' },
+        { label: 'Buttons', path: '/buttons' },
+        { label: 'Modal', path: '/modal' },
+        { label: 'Table', path: '/table' },
+        { label: 'Counter', path: '/counter' },
+    ];
 
   const rennderedLinks = links.map((link) => {
     return (
