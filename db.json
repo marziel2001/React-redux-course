@@ -1,8 +1,22 @@
 {
   "users": [
-    {"id":1,"name":"Myra"}
+    {
+      "id": 1,
+      "name": "Myra"
+    },
+    {
+      "name": "Ms. Bridget Graham",
+      "id": 2
+    },
+    {
+      "name": "Omar Hermann",
+      "id": 3
+    },
+    {
+      "name": "Roland Rath IV",
+      "id": 4
+    }
   ],
   "albums": [],
   "photos": []
 }
-
