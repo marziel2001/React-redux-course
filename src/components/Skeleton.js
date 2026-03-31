@@ -7,7 +7,7 @@ function Skeleton({ times, className }) {
     "bg-gray-200",
     "rounded",
     "mb-2.5",
-    className
+    className,
   );
   const innerClassNames = classNames(
     "animate-shimmer",
@@ -18,7 +18,7 @@ function Skeleton({ times, className }) {
     "from-gray-200",
     "via-white",
     "to-gray-200",
-    className
+    className,
   );
 
   const boxes = Array(times)
