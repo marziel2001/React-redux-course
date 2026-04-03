@@ -7,24 +7,62 @@
     {
       "name": "Irma Powlowski",
       "id": 7
+    },
+    {
+      "name": "Mrs. Ruth Olson",
+      "id": 8
     }
   ],
   "albums": [
     {
-      "id": 10,
-      "title": "Hiking Trip",
-      "userId": 2
+      "userId": 8,
+      "title": "Handmade Bronze Tuna",
+      "id": 69
+    },
+    {
+      "userId": 8,
+      "title": "Small Concrete Ball",
+      "id": 70
+    },
+    {
+      "userId": 8,
+      "title": "Electronic Granite Bike",
+      "id": 71
+    },
+    {
+      "userId": 2,
+      "title": "Generic Concrete Computer",
+      "id": 84
     },
     {
       "userId": 7,
-      "title": "Fantastic Soft Chicken",
-      "id": 24
+      "title": "Sleek Concrete Hat",
+      "id": 90
     },
-  
+    {
+      "userId": 7,
+      "title": "Luxurious Steel Keyboard",
+      "id": 93
+    },
     {
       "userId": 2,
-      "title": "Awesome Granite Hat",
-      "id": 68
+      "title": "Elegant Concrete Pants",
+      "id": 94
+    },
+    {
+      "userId": 2,
+      "title": "Luxurious Granite Shoes",
+      "id": 95
+    },
+    {
+      "userId": 7,
+      "title": "Elegant Metal Towels",
+      "id": 96
+    },
+    {
+      "userId": 7,
+      "title": "Awesome Wooden Mouse",
+      "id": 97
     }
   ],
   "photos": []

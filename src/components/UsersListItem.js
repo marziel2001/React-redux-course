@@ -1,4 +1,4 @@
-import { GoX } from "react-icons/go";
+import { GoTrashcan, GoX } from "react-icons/go";
 import { useThunk } from "../hooks/use-thunk";
 import { removeUser } from "../store";
 import Button from "./Button";
@@ -15,7 +15,7 @@ function UsersListItem({ user }) {
   const header = (
     <>
       <Button className="mr-3" loading={isLoading} onClick={handleClick}>
-        <GoX />
+        <GoTrashcan />
       </Button>{" "}
       {error && <div>Error deleting user </div>}
       {user.name}
