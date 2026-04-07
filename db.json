@@ -46,11 +46,6 @@
     },
     {
       "userId": 2,
-      "title": "Elegant Concrete Pants",
-      "id": 94
-    },
-    {
-      "userId": 2,
       "title": "Luxurious Granite Shoes",
       "id": 95
     },
@@ -65,5 +60,41 @@
       "id": 97
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "albumId": 90,
+      "url": "https://loremflickr.com/150/150/abstract?lock=4794",
+      "id": 3
+    },
+    {
+      "albumId": 95,
+      "url": "https://loremflickr.com/150/150/abstract?lock=96537",
+      "id": 9
+    },
+    {
+      "albumId": 95,
+      "url": "https://loremflickr.com/150/150/abstract?lock=84904",
+      "id": 10
+    },
+    {
+      "albumId": 84,
+      "url": "https://loremflickr.com/150/150/abstract?lock=662",
+      "id": 25
+    },
+    {
+      "albumId": 84,
+      "url": "https://loremflickr.com/150/150/abstract?lock=63178",
+      "id": 26
+    },
+    {
+      "albumId": 95,
+      "url": "https://loremflickr.com/150/150/abstract?lock=87251",
+      "id": 28
+    },
+    {
+      "albumId": 95,
+      "url": "https://loremflickr.com/150/150/abstract?lock=55689",
+      "id": 29
+    }
+  ]
 }
