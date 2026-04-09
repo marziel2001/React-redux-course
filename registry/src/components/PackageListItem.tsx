@@ -6,7 +6,9 @@ interface PackageListItemProps {
 }
 
 export default function PackageListItem({ pack }: PackageListItemProps) {
-  const renderedKeywords = (pack.keywords || []).map((keyword) => {
+  const distinctKeywordsArray: string[] = [...new Set(pack.keywords)];
+
+  const renderedKeywords = (distinctKeywordsArray || []).map((keyword) => {
     return (
       <div
         key={keyword}
