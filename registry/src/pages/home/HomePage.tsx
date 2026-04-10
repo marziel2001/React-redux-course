@@ -1,14 +1,28 @@
+import { useMemo } from "react";
 import { Link, useLoaderData } from "react-router-dom";
 import type { HomeLoaderResult } from "./homeLoader";
+
+function randomHue() {
+  return {
+    "--hue": String(Math.floor(Math.random() * 360)),
+    "--gradient-angle": `${Math.floor(Math.random() * 360)}deg`,
+  } as React.CSSProperties;
+}
 
 export default function HomePage() {
   const { featuredPackages } = useLoaderData() as HomeLoaderResult;
 
-  const renderedPackages = featuredPackages.map((p) => {
+  const cardStyles = useMemo(
+    () => featuredPackages.map(() => randomHue()),
+    [featuredPackages]
+  );
+
+  const renderedPackages = featuredPackages.map((p, i) => {
     return (
       <div
         key={p.name}
-        className="flex flex-col justify-between gap-3 border rounded shadow p-4"
+        style={cardStyles[i]}
+        className="metallic-gradient flex flex-col justify-between gap-3 border rounded shadow p-4"
       >
         <div className="flex flex-col gap-1 border-bottom border-gray-400">
           <div className="font-bold text-center">{p.name}</div>
